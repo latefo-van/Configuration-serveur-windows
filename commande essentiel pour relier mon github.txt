@@ -1,0 +1,16 @@
+git remote add origin https://github.com/latefo-van/Configuration-serveur-windows.git
+git branch -M main
+git push -u origin main
+
+
+
+
+git config --global user.name "Vanessa Latefo"
+git config --global user.email "vanessa@example.com"
+
+git add .
+
+git commit -m "Premier commit de configuration Windows Server"
+
+
+git push -u origin main

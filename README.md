@@ -91,7 +91,20 @@ ipconfig
 
 ---
 
-## 📁 Arborescence du projet
+## Étape 7 : Installation du rôle Active Directory Domain Services (AD DS)
+
+J’ai installé le rôle AD DS (Active Directory Domain Services) sur mon serveur afin d’en faire un contrôleur de domaine.
+
+1. J’ai lancé le **Gestionnaire de serveur** puis cliqué sur **Ajouter des rôles et fonctionnalités**.
+2. J’ai sélectionné le rôle **AD DS** dans la liste des rôles proposés.
+3. J’ai poursuivi les étapes de l’assistant jusqu’à l’installation complète du rôle.
+
+Les deux captures ci-dessous illustrent cette installation :
+
+- `nom-de-domaine-ad.png` : Capture de l’ajout du nom AD DS dans le Gestionnaire de serveur.
+- `installation-terminee.png` : Capture confirmant que le rôle a bien été installé.
+
+> Ces étapes montrent que le rôle Active Directory Domain Services est bien actif sur le serveur, prêt à être configuré comme contrôleur de domaine.
 
 
 
